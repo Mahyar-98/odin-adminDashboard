@@ -89,6 +89,107 @@ body {
 .top-menu {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 2fr 3fr;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px rgba(200, 200, 200, 0.5);
+}
+
+.search-bar {
+    grid-area: 1 / 1 / 2 / 5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.search-bar input {
+    background-color: rgb(240, 240, 240);
+    width: 70%;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.top-right-menu {
+    grid-area: 1 / 5 / 2 / 7;
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.top-right-menu div {
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.greetings {
+    grid-area: 2 / 1 / 3 / 4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.greetings img {
+    width: 100px;
+    height: 100px;
+}
+
+.greetings div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+.greetings p {
+    margin: 0;
+}
+
+.greetings h1 {
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.menu-actions {
+    grid-area: 2 / 4 / 3 / 7;
+}
+
+.menu-actions ul {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.menu-actions li {
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: maroon;
+    padding: 10px 40px;
+    border-radius: 20px;
 }
 
 .content {
