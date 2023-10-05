@@ -8,63 +8,67 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="nav-block">
             <div class="logo">
                 <div class="dashboard-icon">
-                    <div class="L-rec"></div>
-                    <div class="S-rec"></div>
-                    <div class="S-rec"></div>
-                    <div class="L-rec"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
                 <h1>Dashboard</h1>
             </div>
-            <div class="side-menu">
+            <nav class="side-menu">
                 <ul>
                     <li>
                         <img src="icons/home.svg" alt="home" class="icon">
-                        <h2>Home</h2>
+                        <a href="">Home</a>
                     </li>
                     <li>
                         <img src="icons/card-account-details-outline.svg" alt="Profile details" class="icon">
-                        <h2>Profile</h2>
+                        <a href="">Profile</a>
                     </li>
                     <li>
                         <img src="icons/message.svg" alt="messages" class="icon">
-                        <h2>Messages</h2>
+                        <a href="">Messages</a>
                     </li>
                     <li>
                         <img src="icons/history.svg" alt="history" class="icon">
-                        <h2>History</h2>
+                        <a href="">History</a>
                     </li>
                     <li>
                         <img src="icons/file-multiple.svg" alt="tasks" class="icon">
-                        <h2>Tasks</h2>
+                        <a href="">Tasks</a>
                     </li>
                     <li>
                         <img src="icons/account-group.svg" alt="communities" class="icon">
-                        <h2>Communities</h2>
+                        <a href="">Communities</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <img src="icons/cog.svg" alt="settings" class="icon">
-                        <h2>Settings</h2>
+                        <a href="">Settings</a>
                     </li>
                     <li>
                         <img src="icons/account-question.svg" alt="support" class="icon">
-                        <h2>support</h2>
+                        <a href="">support</a>
                     </li>
                     <li>
                         <img src="icons/shield.svg" alt="privacy" class="icon">
-                        <h2>Privacy</h2>
+                        <a href="">Privacy</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
         <div class="top-menu">
             <div class="search-bar">
-                <img src="icons/magnify.svg" alt="search icon" class="icon">
-                <input type="text" name="search" id="search">
+                <form action="" method="get">
+                    <button type="submit">
+                        <img src="icons/magnify.svg" alt="search icon" class="icon">
+                    </button>
+                    <input type="text" name="search" id="search" placeholder="How can we help?">
+                </form>
             </div>
             <div class="top-right-menu">
                 <img src="icons/bell-ring.svg" alt="notifications icon" class="icon">
@@ -92,7 +96,7 @@
             <div class="projects">
                 <h2>Your Projects</h2>
                 <div>
-                    <div class="project">
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -100,8 +104,8 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
-                    <div class="project">
+                    </article>
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -109,8 +113,8 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
-                    <div class="project">
+                    </article>
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -118,8 +122,8 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
-                    <div class="project">
+                    </article>
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -127,8 +131,8 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
-                    <div class="project">
+                    </article>
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -136,8 +140,8 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
-                    <div class="project">
+                    </article>
+                    <article class="project">
                         <h3>Project Title</h3>
                         <p>This is a placeholder for the text that is supposed to describe the details of this project.</p>
                         <div class="icons">
@@ -145,22 +149,22 @@
                             <img src="icons/eye-plus-outline.svg" alt="Add to read later list" class="icon">
                             <img src="icons/share-variant-outline.svg" alt="Share with others." class="icon">
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
             <div class="announcements">
                 <h2>Announcements</h2>
                 <div class="announcement-list">
                     <div class="announcement">
-                        <h3>Announcement Title</h2>
+                        <h3>Announcement Title</h3>
                         <p>This text describes the anouncement to be made.</p>
                     </div>
                     <div class="announcement">
-                        <h3>Announcement Title</h2>
+                        <h3>Announcement Title</h3>
                         <p>This text describes the anouncement to be made.</p>
                     </div>
                     <div class="announcement">
-                        <h3>Announcement Title</h2>
+                        <h3>Announcement Title</h3>
                         <p>This text describes the anouncement to be made.</p>
                     </div>
                 </div>
@@ -171,28 +175,28 @@
                     <div class="trend">
                         <img src="cat-avatar.png" alt="user avatar" class="avatar">
                         <div class="trend-id">
-                            <h4>@thisapp</h3>
+                            <h4>@thisapp</h4>
                             <p>Life changing app</p>
                         </div>
                     </div>
                     <div class="trend">
                         <img src="cat-avatar.png" alt="user avatar" class="avatar">
                         <div class="trend-id">
-                            <h4>@thisapp</h3>
+                            <h4>@thisapp</h4>
                             <p>Life changing app</p>
                         </div>
                     </div>
                     <div class="trend">
                         <img src="cat-avatar.png" alt="user avatar" class="avatar">
                         <div class="trend-id">
-                            <h4>@thisapp</h3>
+                            <h4>@thisapp</h4>
                             <p>Life changing app</p>
                         </div>
                     </div>
                     <div class="trend">
                         <img src="cat-avatar.png" alt="user avatar" class="avatar">
                         <div class="trend-id">
-                            <h4>@thisapp</h3>
+                            <h4>@thisapp</h4>
                             <p>Life changing app</p>
                         </div>
                     </div>
